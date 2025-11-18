@@ -192,7 +192,7 @@ nav ul li a {
 /* GRID */
 .content-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr; /*fr = fraction*/
   gap: 20px;
   width: 100%;
 }
@@ -331,6 +331,10 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .textfooter {
@@ -347,13 +351,4 @@ footer {
 .logososmed img {
   width: 20px;
   height: 20px;
-}
-
-@media (max-width:760px) {
-  .search-wrap {
-    display: none;
-  }
-  .brand span {
-    display: none;
-  }
 }
