@@ -116,24 +116,25 @@ nav ul li a {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  object-fit: cover; /* agar foto tidak melebar */
+  object-fit: cover;/* agar foto tidak melebar */
 }
 
 
 /*Main*/
 .konten-utama{
   padding: 20px;
-
+    
 }
 .jadwal{
   margin-bottom: 20px;
   text-align: center;
   font-size: 1.3em;
-  background-color: #e2561f;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekoMlw0enazZef2md6MISAk7as49YKUfsNg&s);
+  background-size: cover;
   padding: 20px;
   border-radius: 8px;
   font-family: Poppins, sans-serif;
-  color: #f4f4f4;
+  color: #352929;
 }
 
 .utama{
@@ -203,7 +204,7 @@ footer {
   height: 20px;
 }
 
-@media (max-width:640px) {
+@media (max-width:760px) {
   .search-wrap {
     display: none;
   }

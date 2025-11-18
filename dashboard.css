@@ -348,3 +348,12 @@ footer {
   width: 20px;
   height: 20px;
 }
+
+@media (max-width:760px) {
+  .search-wrap {
+    display: none;
+  }
+  .brand span {
+    display: none;
+  }
+}
