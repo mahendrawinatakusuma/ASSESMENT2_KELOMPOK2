@@ -348,22 +348,3 @@ footer {
   width: 20px;
   height: 20px;
 }
-
-@media (max-width: 480px) {
-  .guru {
-    width: 100%;
-  }
-
-  .logo {
-    height: 28px;
-  }
-
-  .avatar {
-    width: 30px;
-    height: 30px;
-  }
-
-  nav ul li a {
-    font-size: 10px;
-  }
-}
