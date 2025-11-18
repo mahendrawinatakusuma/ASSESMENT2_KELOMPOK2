@@ -131,7 +131,6 @@ nav ul li a {
   background: #ffffff;
   border-right: 1px solid #dddddd;
   padding: 20px;
-  margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
@@ -176,7 +175,7 @@ nav ul li a {
 
 /* WELCOME */
 .welcome {
-  height: 150px;
+  height: 100px;
   border-radius: 10px;
   margin-bottom: 20px;
   display: flex;
