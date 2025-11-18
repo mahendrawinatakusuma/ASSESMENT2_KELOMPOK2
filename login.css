@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Latar belakang */
+body {
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card utama */
+.container {
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* Logo */
+.logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.logo h2 {
+    color: #000000;
+}
+
+.subtitle {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Form */
+.form-box {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Link lupa kata sandi */
+.forgot {
+    display: block;
+    text-align: right;
+    margin: -10px 0 15px;
+    font-size: 13px;
+    color: #d35400;
+    text-decoration: none;
+}
+
+/* Tombol login */
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: #c45121;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Pembatas ATAU */
+.atau {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 13px;
+    color: #777;
+}
+
+/* Tombol Google */
+.btn-google {
+    width: 100%;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-google span {
+    margin-right: 5px;
+}
+
+/* Daftar */
+.register {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #c45121;
+    text-decoration: none;
+}
