@@ -121,14 +121,15 @@ nav ul li a {
   padding: 20px;
 }
 .jadwal{
-  margin: 20px;
+  margin: 40px;
   font-family: Poppins, sans-serif;
   color: #ff4800;
 }
 .utama{
   display: grid;
   gap: 20px;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
+  margin: 0 70px 0 70px;
 }
 .card-matwa{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrAQLw9c3Tk0QjX5mEZIczfZIoY4i-1fdWkA&s);
@@ -143,7 +144,7 @@ nav ul li a {
 .card-matwa p{
   font-size: 0.8em;
   padding: 3px;
-  color: #000000;
+  color: #454545;
 }
 .card-matwa img{width: 12px;}
 
@@ -160,7 +161,7 @@ nav ul li a {
 .card-bindo p{
   font-size: 0.8em;
   padding: 3px;
-  color: #000000;
+  color: #454545;
 }
 .card-bindo img{width: 12px;}
 
@@ -177,7 +178,7 @@ nav ul li a {
 .card-senbud p{
   font-size: 0.8em;
   padding: 3px;
-  color: #000000;
+  color: #454545;
 }
 .card-senbud img{width: 12px;}
 
@@ -194,7 +195,7 @@ nav ul li a {
 .card-biologi p{
   font-size: 0.8em;
   padding: 3px;
-  color: #000000;
+  color: #454545;
 }
 .card-biologi img{width: 12px;}
 
@@ -211,7 +212,7 @@ nav ul li a {
 .card-matmin p{
   font-size: 0.8em;
   padding: 3px;
-  color: #000000;
+  color: #454545;
 }
 .card-matmin img{width: 12px;}
 
@@ -228,7 +229,7 @@ nav ul li a {
 .card-kimia p{
   font-size: 0.8em;
   padding: 3px;
-  color: #000000;
+  color: #454545;
 }
 .card-kimia img{width: 12px;}
 
@@ -241,13 +242,17 @@ nav ul li a {
   text-align: left;
   padding: 15px;
 }
-.card-fisika h4{padding: 3px;}
-.card-fisika p{
-font-size: 0.8em;
-padding: 3px;
-color: #000000;
+.card-fisika h4{
+  padding: 3px;
 }
-.card-fisika img{width: 12px;}
+.card-fisika p{
+  font-size: 0.8em;
+  padding: 3px;
+  color: #454545;
+}
+.card-fisika img{
+  width: 12px;
+}
 
 
 
