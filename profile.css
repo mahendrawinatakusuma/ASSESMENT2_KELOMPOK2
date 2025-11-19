@@ -192,6 +192,10 @@ nav ul li a {
   border: 1px solid #ccc;
 }
 
+.qr {
+  margin-left: auto;
+}
+
 /*FOOTER*/
 
 footer {
