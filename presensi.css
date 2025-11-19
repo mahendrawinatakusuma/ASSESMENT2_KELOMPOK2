@@ -1,11 +1,16 @@
+html, body {
+  height: 100%;
+}
+
 body {
   background: #f5f5f5;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-/*Header*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -42,14 +47,14 @@ body {
 }
 
 nav ul {
-  list-style: none; /* menghilangkan titik list */
+  list-style: none;
   display: flex;
   flex-direction: row;
   gap: 25px;
 }
 
 nav ul li a {
-  text-decoration: none; /* untuk menghilangkan garis bawah */
+  text-decoration: none;
   color: #000000;
   font-size: 12px;
 }
@@ -62,9 +67,8 @@ nav ul li a {
 .search {
   width: 100%;
   display: flex;
-  border: 1px solid #000000; /*solid itu garis pinggiran*/
+  border: 1px solid #000000; 
   border-radius: 8px;
-  overflow: hidden; /*memastikan isi kotak tidak tumpah keluar*/
 }
 
 .logo-search {
@@ -116,70 +120,67 @@ nav ul li a {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  object-fit: cover;/* agar foto tidak melebar */
+  object-fit: cover; /* agar foto tidak melebar */
 }
 
-
-/*Main*/
-.konten-utama{
-  padding: 20px;
-    
-}
-.jadwal{
-  text-align: center;
-  font-size: 1.3em;
-  background-image: url(https://st.depositphotos.com/17620692/61524/v/450/depositphotos_615240384-stock-illustration-simple-orange-background-flat-geometric.jpg);
-  background-size: cover;
-
-  margin: 0 50px 20px 50px;
-  padding: 20px;
-  border-radius: 8px;
-  font-family: Poppins, sans-serif;
-  color: #f5f5f5;
+main {
+ flex: 1;
 }
 
-.utama{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    margin: 0px 50px 0 50px;
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 40px;
 }
 
-.card{
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgb(0,0,0,0.1);
-    overflow: hidden;
-    text-align: left;
-    padding: 15px;
-}
-.card h4{
-    padding: 3px;
-    color: #e2561f;
-}
-.card p{
-  font-size: 0.8em;
-  padding: 3px;
-}
-.card img{
-    width: 12px;
-}
-.status{
-  background: #ff4d00;
-  color: #fff;
-  border-radius: 20px;
-  width: 40px;
-  margin: 10px;
-}
-.status-sudah{
-  background: #15b61a;
-  color: #fff;
-  border-radius: 20px;
-  width: 40px;
-  margin: 10px;
+.profile-scan {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Footer*/
+.scan-img {
+    width: 180px;
+}
+
+.divider {
+    width: 70%;
+    height: 1px;
+    background: #ccc;
+    margin: 40px auto;
+}
+
+.card {
+    width: 350px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+.info i {
+    margin-right: 5px;
+}
+
+/*FOOTER*/
+
 footer {
   background: #ffffff;
   border-radius: 10px;
@@ -203,13 +204,4 @@ footer {
 .logososmed img {
   width: 20px;
   height: 20px;
-}
-
-@media (max-width:760px) {
-  .search-wrap {
-    display: none;
-  }
-  .brand span {
-    display: none;
-  }
 }

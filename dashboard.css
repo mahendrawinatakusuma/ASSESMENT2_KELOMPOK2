@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -13,8 +14,7 @@ body {
   gap: 16px;
   padding: 12px 18px;
   background:#ffffff;
-  border-bottom: 1px solid #474747;
-  margin-right: 5px;
+  border-bottom: 1px solid #47474725;
   position: sticky;
   top: 0;
 }
@@ -63,7 +63,6 @@ nav ul li a {
   display: flex;
   border: 1px solid #000000; /*solid itu garis pinggiran*/
   border-radius: 8px;
-  overflow: hidden; /*memastikan isi kotak tidak tumpah keluar*/
 }
 
 .logo-search {
@@ -168,7 +167,7 @@ nav ul li a {
   color: #555;
 }
 
-/* MAIN CONTENT */
+/* MAIN */
 .main {
   padding: 20px;
 }
@@ -192,7 +191,7 @@ nav ul li a {
 /* GRID */
 .content-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;  
   gap: 20px;
   width: 100%;
 }
@@ -331,6 +330,10 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .textfooter {
