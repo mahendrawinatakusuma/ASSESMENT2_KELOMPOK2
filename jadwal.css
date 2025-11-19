@@ -63,7 +63,6 @@ nav ul li a {
   display: flex;
   border: 1px solid #000000; /*solid itu garis pinggiran*/
   border-radius: 8px;
-  overflow: hidden; /*memastikan isi kotak tidak tumpah keluar*/
 }
 
 .logo-search {
@@ -121,17 +120,17 @@ nav ul li a {
 
 /*Main*/
 .konten-utama{
-padding: 20px;
+  padding: 20px;
 }
 .jadwal{
-margin: 20px;
-font-family: Poppins, sans-serif;
-color: #ff4800;
+  margin: 20px;
+  font-family: Poppins, sans-serif;
+  color: #ff4800;
 }
 .utama{
-display: grid;
-gap: 20px;
-grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 20px;
+  grid-template-columns:1fr 1fr 1fr 1fr;
 }
 .card-matwa{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrAQLw9c3Tk0QjX5mEZIczfZIoY4i-1fdWkA&s);

@@ -64,7 +64,6 @@ nav ul li a {
   display: flex;
   border: 1px solid #000000; /*solid itu garis pinggiran*/
   border-radius: 8px;
-  overflow: hidden; /*memastikan isi kotak tidak tumpah keluar*/
 }
 
 .logo-search {
@@ -123,14 +122,14 @@ nav ul li a {
 /*Main*/
 .konten-utama{
   padding: 20px;
-    
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231228/pngtree-vibrant-gradations-of-yellow-and-orange-create-a-captivating-background-with-image_13902918.png);
+  background-size: cover;
 }
 .jadwal{
   text-align: center;
   font-size: 1.3em;
   background-image: url(https://st.depositphotos.com/17620692/61524/v/450/depositphotos_615240384-stock-illustration-simple-orange-background-flat-geometric.jpg);
   background-size: cover;
-
   margin: 0 50px 20px 50px;
   padding: 20px;
   border-radius: 8px;
