@@ -70,8 +70,7 @@ nav ul li a {
   width: 100%;
   display: flex;
   border: 1px solid #000000;
-  border-radius: 8px;
-  overflow: hidden; 
+  border-radius: 8px; 
 }
 
 .logo-search {

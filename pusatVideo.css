@@ -63,9 +63,8 @@ nav ul li a {
 .search {
   width: 100%;
   display: flex;
-  border: 1px solid #000000; /solid itu garis pinggiran/
+  border: 1px solid #000000; /*solid itu garis pinggiran*/
   border-radius: 8px;
-  overflow: hidden; /memastikan isi kotak tidak tumpah keluar/
 }
 
 .logo-search {
@@ -76,7 +75,7 @@ nav ul li a {
   margin: 10px;
 }
 .search input {
-  border: none; /menghilangkan border cari default/
+  border: none; /*menghilangkan border cari default*/
   padding: 10px;
   font-size: 14px;
   outline: none; /* menghilangkan garis luar kalo kita pencet cari*/
