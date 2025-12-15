@@ -130,9 +130,6 @@ nav ul li a {
   padding: 20px;
   margin-bottom: 5px;
   border-radius: 10px;
-}
-
-.sidebar {
   text-decoration: none;
   color: #000000;
 }
@@ -141,7 +138,7 @@ nav ul li a {
   text-align: center;
 }
 
-.profile div {
+span {
   font-size: 12px;
   margin-bottom: 5px;
 }
@@ -159,15 +156,10 @@ nav ul li a {
   text-decoration: none;
   color: #000000;
 }
-
-.profile p {
-  font-size: 13px;
-  color: #555;
-}
-
 /* MAIN */
 .main {
   padding: 20px;
+  width: 100%;
 }
 
 /* WELCOME */
