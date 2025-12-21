@@ -245,11 +245,35 @@ footer {
   height: 20px;
 }
 
-@media (max-width:760px) {
-  .search-wrap {
-    display: none;
-  }
-  .brand span {
-    display: none;
-  }
+@media (max-width: 768px) {
+    header {
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        padding: 10px;
+        border-radius: 0; 
+    }
+    nav {
+        display: none;
+    }
+    .brand {
+        justify-content: flex-start;
+    }
+
+    .right-section {
+        width: auto;
+        justify-content: flex-end;
+    }
+    .language .select {
+        display: none; 
+    }
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    footer {
+        display: none;
+    }
 }
