@@ -205,3 +205,27 @@ footer {
   width: 20px;
   height: 20px;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        padding: 10px;
+        border-radius: 0; 
+    }
+    nav {
+        display: none;
+    }
+    .brand {
+        justify-content: flex-start;
+    }
+
+    .right-section {
+        width: auto;
+        justify-content: flex-end;
+    }
+    .language .select {
+        display: none; 
+    }
