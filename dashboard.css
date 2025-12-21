@@ -135,11 +135,11 @@ nav ul li a {
   color: #000000;
 }
 
-.profile {
+.profile  {
   text-align: center;
 }
 
-span {
+.profile p {
   font-size: 12px;
   margin-bottom: 5px;
 }
@@ -165,7 +165,7 @@ span {
 
 /* WELCOME */
 .welcome {
-  height: 100px;
+  height: 200px;
   border-radius: 10px;
   margin-bottom: 20px;
   display: flex;
@@ -181,8 +181,8 @@ span {
 
 /* GRID */
 .content-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;   
+  display: grid; 
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
   width: 100%;
 }
@@ -346,7 +346,7 @@ footer {
   width: 20px;
   height: 20px;
 }
-
+/*
 @media (max-width: 768px) {
     header {
         flex-direction: row; 
