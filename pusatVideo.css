@@ -4,8 +4,6 @@
   --text: #1f2937;
   --sub: #6b7280;
   --card: #fff;
-  --radius: 14px;
-  --shadow: 0 6px 18px rgba(31,41,55,0.06);
 }
 
 /* Main container layout */
@@ -17,7 +15,7 @@
   gap: 16px;
   padding: 12px 18px;
   background:#ffffff;
-  border-bottom: 1px solid #47474725;
+  border-bottom: 1px solid #474747;
   margin-right: 5px;
   position: sticky;
   top: 0;
@@ -65,9 +63,9 @@ nav ul li a {
 .search {
   width: 100%;
   display: flex;
-  border: 1px solid #000000; /solid itu garis pinggiran/
+  
   border-radius: 8px;
-  overflow: hidden; /memastikan isi kotak tidak tumpah keluar/
+  overflow: hidden; 
 }
 
 .logo-search {
@@ -215,7 +213,6 @@ video {
 }
 
 .download-main {
-    display: inline-block;
     padding: 10px 16px;
     background: #2563eb;
     text-decoration: none;
