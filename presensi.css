@@ -8,7 +8,6 @@ body {
 
 header {
   display: flex;
-  width: auto;
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
@@ -16,6 +15,7 @@ header {
   background:#ffffff;
   border-bottom: 1px solid #47474725;
   position: sticky;
+  top: 0;
 }
 
 .brand {
@@ -29,8 +29,6 @@ header {
 .logo {
   height: 36px;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
   margin-left: 10px;
 }
 
@@ -56,27 +54,6 @@ nav ul li a {
   gap: 16px;
 }
 
-.search {
-  width: 100%;
-  display: flex;
-  border: 1px solid #000000; /*solid itu garis pinggiran*/
-  border-radius: 8px;
-}
-
-.logo-search {
-  width: 20px;
-  height: 20px;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-.search input {
-  border: none; /*menghilangkan border cari default*/
-  padding: 10px;
-  font-size: 14px;
-  outline: none; /* menghilangkan garis luar kalo kita pencet cari*/
-}
-
 .language {
   display: flex;
   align-items: center;
@@ -86,7 +63,6 @@ nav ul li a {
 .logo-bahasa {
   width: 20px;
   height: 20px;
-  display: flex;
 }
 
 .select {

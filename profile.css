@@ -3,10 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  width: 100%;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +13,6 @@ body {
   padding: 12px 18px;
   background:#ffffff;
   border-bottom: 1px solid #47474725;
-  margin-right: 5px;
   position: sticky;
   top: 0;
 }
@@ -30,8 +28,6 @@ body {
 .logo {
   height: 36px;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
   margin-left: 10px;
 }
 
@@ -57,27 +53,6 @@ nav ul li a {
   gap: 16px;
 }
 
-.search {
-  width: 100%;
-  display: flex;
-  border: 1px solid #000000; /*solid itu garis pinggiran*/
-  border-radius: 8px;
-}
-
-.logo-search {
-  width: 20px;
-  height: 20px;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-.search input {
-  border: none; /*menghilangkan border cari default*/
-  padding: 10px;
-  font-size: 14px;
-  outline: none; /* menghilangkan garis luar kalo kita pencet cari*/
-}
-
 .language {
   display: flex;
   align-items: center;
@@ -87,7 +62,6 @@ nav ul li a {
 .logo-bahasa {
   width: 20px;
   height: 20px;
-  display: flex;
 }
 
 .select {
@@ -195,7 +169,6 @@ nav ul li a {
 }
 
 /*FOOTER*/
-
 footer {
   background: #ffffff;
   border-radius: 10px;
@@ -203,6 +176,8 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10px;
+  margin-top: 150px;
 }
 
 .textfooter {
@@ -218,5 +193,5 @@ footer {
 
 .logososmed img {
   width: 20px;
-  height: 20px;
+    height: 20px;
 }
