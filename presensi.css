@@ -1,8 +1,5 @@
-html, body {
-  height: 100%;
-}
-
 body {
+  height: 100%;
   background: #f5f5f5;
   margin: 0;
   padding: 0;
@@ -62,27 +59,6 @@ nav ul li a {
 .right-section {
   display: flex;
   gap: 16px;
-}
-
-.search {
-  width: 100%;
-  display: flex;
-  border: 1px solid #000000; 
-  border-radius: 8px;
-}
-
-.logo-search {
-  width: 20px;
-  height: 20px;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-.search input {
-  border: none; /*menghilangkan border cari default*/
-  padding: 10px;
-  font-size: 14px;
-  outline: none; /* menghilangkan garis luar kalo kita pencet cari*/
 }
 
 .language {
@@ -188,6 +164,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 208px;
 }
 
 .textfooter {
@@ -204,4 +181,48 @@ footer {
 .logososmed img {
   width: 20px;
   height: 20px;
+}
+/*
+@media (max-width: 768px) {
+    header {
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        padding: 10px;
+        border-radius: 0; 
+    }
+    nav {
+        display: none;
+    }
+    .brand {
+        justify-content: flex-start;
+    }
+
+    .right-section {
+        width: auto;
+        justify-content: flex-end;
+    }
+    .language .select {
+        display: none; 
+    }
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+    .main {
+        padding: 10px;
+        margin-bottom: 60px;
+    }
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        border: none;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        margin-bottom: 15px;
+    }
+    footer {
+        display: none;
+    }
 }
