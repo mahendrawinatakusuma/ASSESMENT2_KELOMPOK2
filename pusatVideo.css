@@ -12,7 +12,6 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  gap: 16px;
   padding: 12px 18px;
   background:#ffffff;
   border-bottom: 1px solid #474747;
@@ -32,7 +31,6 @@
 .logo {
   height: 36px;
   border-radius: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-left: 10px;
@@ -63,9 +61,9 @@ nav ul li a {
 .search {
   width: 100%;
   display: flex;
-  
+  border: 1px solid #000000; /solid itu garis pinggiran/
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden; /memastikan isi kotak tidak tumpah keluar/
 }
 
 .logo-search {
@@ -76,7 +74,7 @@ nav ul li a {
   margin: 10px;
 }
 .search input {
-  border: none; /menghilangkan border cari default/
+  border: none; /*menghilangkan border cari default*/
   padding: 10px;
   font-size: 14px;
   outline: none; /* menghilangkan garis luar kalo kita pencet cari*/

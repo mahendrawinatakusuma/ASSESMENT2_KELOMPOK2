@@ -3,10 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  overflow-x: hidden;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +13,7 @@ header {
   padding: 12px 18px;
   background:#ffffff;
   border-bottom: 1px solid #47474725;
+  margin-right: 5px;
   position: sticky;
   top: 0;
 }
@@ -29,6 +29,8 @@ header {
 .logo {
   height: 36px;
   border-radius: 8px;
+  align-items: center;
+  justify-content: center;
   margin-left: 10px;
 }
 
@@ -63,9 +65,10 @@ nav ul li a {
 .logo-bahasa {
   width: 20px;
   height: 20px;
+  display: flex;
 }
 
-.select {
+.select { 
   border: 1px solid #e2e6ef;
   border-radius: 8px;
   padding: 6px 10px;
@@ -91,60 +94,120 @@ nav ul li a {
   object-fit: cover; /* agar foto tidak melebar */
 }
 
-.main-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    margin-top: 40px;
-}
 
-.profile-scan {
-    width: 230px;
-    height: 230px;
+/*Main*/
+.konten-utama{
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+.tugas{
+    padding: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 15px;
+    height: 100px;
+}
+.tugas img{
+    width: 55px;
+    height: 55px;
+    background: #f85a1c;
+    border-radius: 10%;
+    padding: 10px;
+}
+.status{
+  display: flex;
+  gap: 17px;
+  padding-left: 13px;
+}
+.status-abu{
+  color: #ffffff;
+  font-weight: 600;
+  background: #ababab;
+  padding: 8px 15px;
+  border-radius: 100px;
+  font-size: 0.9em;
+}
+.status-hijau{
+  color: #ffffff;
+  font-weight: 600;
+  background: #10cd30;
+  padding: 8px 15px;
+  border-radius: 100px;
+  font-size: 0.9em;
+}
+.main-pengumpulan{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #c7c3c220;
+    padding: 45px 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+.main-pengumpulan p{
+  margin-top: -10px;
+}
+.unggah{
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.unggah-file{
+  color: #ffffff;
+  font-weight: 600;
+  background: #c20a0a;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  display: inline-block;
+}
+.pengumpulan{
+  display: flex;
+  gap: 70px;
+  margin-bottom: 55px;
+}
+.file{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 70px;
+    background: #e4e1e1;
+    border-radius: 10px;
+}
+.file img{
+    width: 25px;
+    height: 25px;
+    background: #efb105;
+    border-radius: 10%;
+    padding: 10px;
+}
+.file p{
+  padding-top: 30px;
+}
+.file-document{
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.guru{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.guru img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.guru p{
+  padding-top: 30px;
 }
 
-.scan-img {
-    width: 180px;
-}
 
-.divider {
-    width: 70%;
-    height: 1px;
-    background: #ccc;
-    margin: 40px auto;
-}
-
-.card {
-    width: 350px;
-    background: #fff;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.08);
-    text-align: center;
-}
-
-.card-title {
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.info {
-    margin-top: 15px;
-    font-size: 14px;
-    color: #444;
-}
-
-.info i {
-    margin-right: 5px;
-}
-
-/*FOOTER*/
-
+/* Footer*/
 footer {
   background: #ffffff;
   border-radius: 10px;
@@ -152,7 +215,6 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 208px;
 }
 
 .textfooter {
@@ -170,7 +232,7 @@ footer {
   width: 20px;
   height: 20px;
 }
-/*
+
 @media (max-width: 768px) {
     header {
         flex-direction: row; 
@@ -198,18 +260,7 @@ footer {
         flex-direction: column;
         padding: 0;
     }
-    .main {
-        padding: 10px;
-        margin-bottom: 60px;
-    }
-    .content-grid {
-        grid-template-columns: 1fr;
-    }
-    .card {
-        border: none;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        margin-bottom: 15px;
-    }
+
     footer {
         display: none;
     }
