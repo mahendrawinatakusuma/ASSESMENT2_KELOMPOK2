@@ -7,7 +7,10 @@
 body {
     background: #f9fafb;
     color: #333;
+    line-height: 1.6;
 }
+
+
 
 .navbar{
     display: flex;
@@ -35,68 +38,28 @@ body {
     font-size: 14px;
 }
 
-.user img{
-    width: 36px;
-    height: 36px;
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
 }
 
-
-/* Content */
-.container {
-    padding: 40px;
+.main-content img {
+    margin: 15px 0;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
-.page-tittle {
-    margin-bottom: 24px;
+.main-content p {
+    font-weight: 600;
 }
 
-/* Grid */
-.news-grid {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 24px;
-}
-
-.card {
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.04);
-}
-
-.card-link {
-    display: block;
-    text-decoration: none;
-}
-
-.card:hover{
-    transform: translateY(-6px);
-}
-
-.card img{
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
-
-.card-body {
-    padding: 16px;
-}
-
-.card-body h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.card-body span {
-    font-size: 13px;
-    color: #888;
-}
-
-.card-body p{
-    font-size: 13px;
-    margin-top: 8px;
-    color: #555;
+.sidebar {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
 }
 
 footer {
