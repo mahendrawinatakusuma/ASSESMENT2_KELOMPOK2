@@ -56,27 +56,6 @@ nav ul li a {
   gap: 16px;
 }
 
-.search {
-  width: 100%;
-  display: flex;
-  border: 1px solid #000000; /*solid itu garis pinggiran*/
-  border-radius: 8px;
-}
-
-.logo-search {
-  width: 20px;
-  height: 20px;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-.search input {
-  border: none; /*menghilangkan border cari default*/
-  padding: 10px;
-  font-size: 14px;
-  outline: none; /* menghilangkan garis luar kalo kita pencet cari*/
-}
-
 .language {
   display: flex;
   align-items: center;
@@ -128,7 +107,6 @@ nav ul li a {
     display: flex;
     align-items: center;
     gap: 15px;
-    box-shadow: #ddd;
     height: 100px;
 }
 .tugas img{
