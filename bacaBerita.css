@@ -62,6 +62,14 @@ main {
     border-radius: 6px;
 }
 
+.meta {
+    color: #ff8400;
+}
+
+img {
+    width: 1000px;;
+}
+
 footer {
   background: #ffffff;
   border-radius: 10px;

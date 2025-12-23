@@ -315,6 +315,10 @@ nav ul li a {
   align-items: center;
   margin-bottom: 10px;
 }
+.berita-item a{
+  text-decoration: none;
+  color: #000000;
+}
 
 /*FOOTER*/
 
