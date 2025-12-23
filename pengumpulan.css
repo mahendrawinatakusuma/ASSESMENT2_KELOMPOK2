@@ -4,8 +4,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +12,6 @@ body {
   padding: 12px 18px;
   background:#ffffff;
   border-bottom: 1px solid #47474725;
-  margin-right: 5px;
   position: sticky;
   top: 0;
 }
@@ -29,8 +27,6 @@ body {
 .logo {
   height: 36px;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
   margin-left: 10px;
 }
 
@@ -65,10 +61,9 @@ nav ul li a {
 .logo-bahasa {
   width: 20px;
   height: 20px;
-  display: flex;
 }
 
-.select { 
+.select {
   border: 1px solid #e2e6ef;
   border-radius: 8px;
   padding: 6px 10px;
